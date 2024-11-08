@@ -13,10 +13,10 @@ int main() {
     printf("Enter the resolution (in fps): ");
     scanf("%d", &resolution);
 
-    // This is the official starting point.
+    // This is the official starting point.//
     start = clock();
 
-    // Loop while the elapsed time has not reach the desired limit.
+    // Loop while the elapsed time has not reach the desired limit.//
     while (elapsed_time < num_seconds * CLOCKS_PER_SEC) {
         elapsed_time = clock() - start;
         if (elapsed_time % (CLOCKS_PER_SEC / resolution) == 0) {
