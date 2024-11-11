@@ -1,3 +1,4 @@
+//1002138164
 #include <stdio.h>
 #include <time.h>
 
@@ -15,7 +16,7 @@ int main() {
 
     // This is the official starting point.//
     start = clock();
-
+    
     // Loop while the elapsed time has not reach the desired limit.//
     while (elapsed_time < num_seconds * CLOCKS_PER_SEC) {
         elapsed_time = clock() - start;
